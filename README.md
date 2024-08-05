@@ -9,7 +9,7 @@ This is a simple weather application built using the Vite React-TS template. The
 - [**Tailwind CSS**](https://tailwindcss.com/): Utility-first CSS framework for styling.
 - [**OpenWeatherMap API**](https://openweathermap.org/api): Fetches real-time weather data.
 - [**Native Geolocation**](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API): Gets the user's current location.
-- [**Testing**](https://vitest.dev/): Uses Vitest and React Testing Library for unit and integration tests.
+- [**Testing**](https://vitest.dev/): Uses Vitest and React Testing Library for unit and integration tests (Jest compatible).
 
 
 ## Project Structure
@@ -26,6 +26,7 @@ This is a simple weather application built using the Vite React-TS template. The
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/jmorel88/weather-app.git
+    cd weather-app
     ```
 2. **Create .env file and store your openweather API key**
     ```bash
