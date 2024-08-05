@@ -1,0 +1,46 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Summary > renders correctly 1`] = `
+<div>
+  <section
+    class="p-8 bg-black-200 rounded-lg text-white-900 text-center md:text-left"
+    data-testid="summary"
+  >
+    <h2
+      class="text-4xl font-semibold mb-6"
+    >
+      New York
+    </h2>
+    <div
+      class="md:flex items-end justify-between"
+    >
+      <p>
+        <span
+          class="text-7xl text-orange font-bold inline-block md:inline mb-4 md:mb-0"
+        >
+          55
+          °
+        </span>
+        <span
+          class="text-xl md:text-2xl block md:inline mb-4"
+        >
+          Cloudy
+        </span>
+      </p>
+      <p
+        class="text-xl md:text-2xl"
+      >
+        Low 
+        50
+        °
+        <span
+          class="inline-block mx-2"
+        />
+         High 
+        60
+        °
+      </p>
+    </div>
+  </section>
+</div>
+`;
